@@ -363,6 +363,7 @@ function clickHandlers() {
 
 
 function addPiece(){
+    debugger;
     var updateBoardRow = $(this).attr("row");
     var updateBoardColumn = $(this).attr("column");
     clickAudio(whiteTurn);
